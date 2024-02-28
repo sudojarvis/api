@@ -42,7 +42,7 @@ func main() {
 
 
 
-	// Create a new task using the POST method and push it to the Redis queue
+	// Create a new task using the POST method and push it to the Redis list
 	app.Post("/tasks", func (c *fiber.Ctx) error {
 
 		// create a new task 
