@@ -18,4 +18,4 @@ go run main.go
 #### What optimizations could be made?
 
 1. Use of middleware to set authentication and authorization for the API
-2. Handling multiple tasks at the same time using go routines
+2. Handling multiple requests at the same time using goroutines
